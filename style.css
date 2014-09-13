@@ -1,3 +1,103 @@
 *{margin:0;
 padding:0;
 }
+.header {
+background-color:white;
+width:1094px;
+height:100px;
+margin-left:138px;
+}
+.headerleft {
+display: inline-block;
+width:600px;
+}
+.logo{margin-top:20px;}
+.logo h1 {color:red;}
+.logo h5 {color:#787878;}
+.headerright{
+float:right;
+width:400px;
+margin-top:5px;
+}
+.nav1{float:right;
+height:20px;
+width:330px;
+margin-top:20px;
+}
+.nav2 {margin-top:40px;}
+.nav1 .nav2 ul,li {
+list-style-type:none;
+float:right;
+padding:5px;
+}
+.container {
+position:relative;
+background-color:#404040;
+background-image: url('taust.png');
+width:1094px;
+height:690px;
+margin-left:138px;
+}
+.box {
+float:left;
+width:228px;
+height:304px;
+background-image: url("post-1.jpg");
+background-repeat: no-repeat;
+margin:15px;
+margin-left:55px;
+margin-top:40px;
+}
+.box1{
+float:left;
+width:228px;
+height:304px;
+background-image: url("post-2.jpg");
+background-repeat: no-repeat;
+margin:15px;
+margin-top:40px;
+}
+.box2 {
+float:left;
+width:228px;
+height:304px;
+background-image: url("post-3.jpg");
+background-repeat: no-repeat;
+margin:15px;
+margin-top:40px;
+}
+.box3 {
+float:left;
+width:208px;
+height:304px;
+background-image: url("post-4.jpg");
+background-repeat: no-repeat;
+margin:15px;
+margin-top:40px;
+}
+.box h1 {color:white; margin:15px;}
+.box1 h1 {color:white; margin:15px;}
+.box2 h1 {color:white; margin:15px;}
+.box3 h1 {color:white; margin:15px;}
+.news2{
+margin:60px;
+margin-left:160px;
+display:inline-block;
+}
+.news2 h1,p {
+text-align:center;
+color:white;
+padding:10px;
+}
+.footer{
+width:1094px;
+height:100px;
+margin-top:30px;
+}
+.left{
+display:inline-block;
+border-top:1px solid #333333;
+margin-left:10px;
+}
+.right{float:right;}
+.left p {text-align:left;}
